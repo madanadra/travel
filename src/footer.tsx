@@ -21,7 +21,7 @@ export default function Footer() {
         <div className="bg-slate-200">
             <div className="max-w-7xl grid divide-y divide-slate-300 mx-auto py-14 px-6">
                 <div className="grid grid-cols-2 sm:grid-cols-4 lg:grid-cols-5 gap-8 pb-8">
-                    <img src="/images/logo.png" alt="Logo" className="col-span-2 sm:col-span-4 lg:col-span-1 w-12 aspect-square" />
+                    <img src={import.meta.env.VITE_APP_BASE+'images/logo.png'} alt="Logo" className="col-span-2 sm:col-span-4 lg:col-span-1 w-12 aspect-square" />
                     {menu.map((item, i) => 
                         <div key={i} className="grid content-start gap-y-2">
                             <h1 className="font-medium">{item.title}</h1>

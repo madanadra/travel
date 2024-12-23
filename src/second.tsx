@@ -82,7 +82,7 @@ export default function Second() {
                 lg:auto-cols-[calc((100%-(16px*4))/4.25)]">
                     {resort.map((item, i) => 
                         <div key={i} className="bg-slate-50 rounded-xl border border-slate-300 overflow-hidden">
-                            <img src={'/images/'+item.name.toLowerCase()+'.jpg'} alt={item.name} 
+                            <img src={import.meta.env.VITE_APP_BASE+'images/'+item.name.toLowerCase()+'.jpg'} alt={item.name} 
                             className="w-full aspect-video object-cover object-center" />
                             <div className="grid gap-y-1 p-4">
                                 <h1 className="font-medium">{item.name}</h1>

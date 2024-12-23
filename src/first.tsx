@@ -1,7 +1,7 @@
 export default function First() {
     return (
         <div className="grid sm:grid-cols-2 bg-slate-50 rounded-xl border border-slate-300 overflow-hidden">
-            <img src="/images/skiers.jpg" alt="Skiers" className="sm:order-last w-full aspect-video sm:aspect-[9/16] md:aspect-square lg:aspect-video object-cover object-center" />
+            <img src={import.meta.env.VITE_APP_BASE+'images/skiers.jpg'} alt="Skiers" className="sm:order-last w-full aspect-video sm:aspect-[9/16] md:aspect-square lg:aspect-video object-cover object-center" />
             <div className="py-5 px-6 grid content-center gap-y-4">
                 <h1 className="text-balance text-4xl font-semibold tracking-tight">Plan the perfect winter trip</h1>
                 <h1 className="text-pretty text-lg font-medium text-slate-600">Easily plan your ideal ski trip from home with the help of professionals.</h1>
