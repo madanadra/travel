@@ -1,7 +1,6 @@
 import { useEffect, useRef, useState } from "react"
 import { PiCaretLeftBold, PiCaretRightBold } from "react-icons/pi"
 
-
 export default function Second() {
     const resort = [
         {name: 'Niseko', country: 'Japan'},
