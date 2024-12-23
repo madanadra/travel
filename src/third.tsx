@@ -6,7 +6,7 @@ export default function Third() {
                 <h1 className="text-pretty text-lg font-medium text-slate-600">Ask questions to our specialized travel agents anytime and anywhere.</h1>
                 <button className="mt-2 text-sm font-semibold w-max bg-sky-600 hover:bg-sky-500 text-slate-50 rounded-full py-2 px-3">Ask here</button>
             </div>
-            <img src="/skier.jpg" alt="Skier" className="w-full aspect-video sm:aspect-[9/16] md:aspect-square lg:aspect-video object-cover object-top" />
+            <img src="/images/skier.jpg" alt="Skier" className="w-full aspect-video sm:aspect-[9/16] md:aspect-square lg:aspect-video object-cover object-top" />
         </div>
     )
 }
